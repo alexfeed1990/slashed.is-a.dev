@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackbox Party Starter</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="center">
+        <div style="text-align: center; display: flex; flex-direction: column; gap: 5px;">
+            <div class="container">
+                <h1>Jackbox Party Starter (not tm)</h1>
+                <p>Ever felt overwhelmed by the amount of choices with the jackbox party packs?</p>
+                <p>Well, this picks it for you. Great for parties.</p>
+            </div>
+
+            <div class="container">
+                <button onclick="updateSearchParam('party')">Normal Party</button>
+                <button onclick="updateSearchParam('quickParty')">Quick Party</button>
+                <button onclick="updateSearchParam('quickestParty')">Quickest Party</button>
+
+                <script>
+                    function updateSearchParam(paramValue) {
+                        const url = new URL('wheel.html', window.location.href);
+                        url.searchParams.set('ver', paramValue);
+                        window.location = url;
+                    }
+
+                    function goto(param) {
+                        const url = new URL(param, window.location.href);
+                        window.location = url;
+                    }
+                </script>
+
+                <button onclick="goto('secret.html')">Secret</button>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

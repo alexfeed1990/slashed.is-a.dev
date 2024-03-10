@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slashed</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script onload src="./js/index.js"></script>
+    <script src="https://kit.fontawesome.com/c995fa2d50.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="center">
+        <div class="flex-col">
+            <pre>
+             __           __             __
+       _____/ /___ ______/ /_  ___  ____/ /
+      / ___/ / __ `/ ___/ __ \/ _ \/ __  / 
+     (__  ) / /_/ (__  ) / / /  __/ /_/ /  
+    /____/_/\__,_/____/_/ /_/\___/\__,_/   
+            </pre>
+            <div class="navbar">
+                
+                <a onclick="goto('home')">Home</a>
+                <a onclick="goto('projects')">Projects</a>
+                <a onclick="goto('about')">About</a>
+                <a onclick="goto('contact')">Contact</a>
+                
+            </div>
+
+            <div id="home" data-page class="">
+                <p>Hey there, I'm Slashed.</p>
+                <p>I work in several programming languages,<br>
+                    and I'm familiar with the following libraries:</p>
+
+                <div class="double-row">
+                    <div>
+                        <ul style="text-align:left;">
+                            <li>JS</li>
+                            <li>TS</li>
+                            <li>C#</li>
+                            <li>Lua</li>
+                            <li>C</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul style="text-align:left;">
+                            <li>NodeJS</li>
+                            <li>Deno</li>
+                            <li>Raylib</li>
+                            <li>Unity</li>
+                            <li>Love2D</li>
+                            <li>Svelte</li>
+                            <li>SvelteKit</li>
+                            <li>Shoelace</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="projects" data-page class="hidden">
+                <p>
+                    These are some of the projects that I completed.<br>
+                    You can find more on <a href="https://replit.com/@xfi" target="_blank"
+                        style="text-decoration: underline;">my replit</a> and <a href="https://replit.com/@alexfeed1990"
+                        target="_blank" style="text-decoration: underline;">my other, worse replit</a> and <a
+                        href="https://github.com/alexfeed1990/" target="_blank" style="text-decoration: underline;">my
+                        Github profile</a>.
+                </p>
+
+                <div class="projects">
+                    <div class="project">
+                        <h2><a href="https://slashed.is-a.dev/jackbox/" style="text-decoration: underline;"
+                                target="_blank">Jackbox Party
+                                Starter</a></h2>
+                        <h4>HTML, CSS & JS</h4>
+                        <p>
+                            No, it's not the game. <br>
+                            It's a spinny wheel which chooses what jackbox game you should play.
+                        </p>
+                    </div>
+
+                    <div class="project">
+                        <h2><a href="https://radio.slashed.is-a.dev/" style="text-decoration: underline;"
+                                target="_blank">Slooshy's radio</a></h2>
+                        <h4>HTML, CSS & JS</h4>
+                        <p>
+                            It's a radio of all the shitpost songs I made so far.</p>
+                    </div>
+
+
+                    <div class="project">
+                        <h2><a href="https://ytdl.nxw.pw/" style="text-decoration: underline;" target="_blank">YT-DLP
+                                Website</a></h2>
+                        <h4>NodeJS</h4>
+                        <p>
+                            Yes, it's another Youtube downloader website, but it's <a
+                                href="https://github.com/yt-dlp/yt-dlp" target="_blank"
+                                style="text-decoration: underline;">YT-DLP</a>,<br>
+                            NOT YT-DL. Every single one of these websites uses YT-DL because<br>
+                            of the <a href="https://www.npmjs.com/package/ytdl-core" target="_blank"
+                                style="text-decoration: underline;">yt-dl core</a> npm package.
+                        </p>
+                    </div>
+
+                    <div class="project">
+                        <h2><a href="https://nograss.alexfeed1990.repl.co/" style="text-decoration: underline;"
+                                target="_blank">No Grass</a></h2>
+                        <h4>HTML, CSS & JS</h4>
+                        <p>
+                            A Minecraft 1.16.1 datapack generator <br>
+                            for a challenge where one player dies if the other<br>
+                            one steps on blocks which are chosen by the player.
+                        </p>
+                    </div>
+
+                    <div class="project">
+                        <h2><a href="https://github.com/alexfeed1990/AutoTools" style="text-decoration: underline;"
+                                target="_blank">AutoTools</a></h2>
+                        <h4>Java</h4>
+                        <p>
+                            A little Minecraft plugin I made for my friends <br>
+                            to make their OneBlock playthrough easier.
+                        </p>
+                    </div>
+
+                    <div class="project">
+                        <h2><a href="https://github.com/alexfeed1990/pasty" style="text-decoration: underline;"
+                                target="_blank">Pasty</a></h2>
+                        <h4>NodeJS, HTML, CSS & JS</h4>
+                        <p>
+                            Pastebin copy.<br>
+                            This is very outdated and should not be an example of my current work.
+                        </p>
+                    </div>
+
+
+                    <div class="project">
+                        <h2><a href="https://github.com/alexfeed1990/ViewDiscordContents"
+                                style="text-decoration: underline;" target="_blank">View Discord Contets</a></h2>
+                        <h4>JavaScript</h4>
+                        <p>
+                            A browser extension for viewing<br>
+                            the contents of a Discord CDN link in the browser instead of downloading them.
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div id="about" data-page class="hidden about">
+                <p>Born in Romania, I started programming when I was around 7yrs old.
+                    I started in <a href="https://en.wikipedia.org/wiki/Batch_file" style="text-decoration: underline;"
+                        target="_blank">Batch</a>, the most basic programming language and I made
+                    basic TUI (terminal UI) programs.</p>
+
+                <p>Next, I moved onto <a href="https://www.roblox.com/create" style="text-decoration: underline;"
+                        target="_blank">Roblox
+                        Studio</a>, which is where I learned <a href="https://www.lua.org/"
+                        style="text-decoration: underline;" target="_blank">Lua</a>.
+                    It is an amazing language which I can recommend to beginners.
+                    I stuck to Roblox for a few years but I never ended up making
+                    something that was very successful.</p>
+
+                <p>While I was messing around in <a href="https://www.roblox.com/create"
+                        style="text-decoration: underline;" target="_blank">Roblox Studio</a>, I was also messing around
+                    with <a href="https://en.wikipedia.org/wiki/HTML" style="text-decoration: underline;"
+                        target="_blank">HTML</a>.
+                    I was making basic websites with little to no <a href="https://en.wikipedia.org/wiki/JavaScript"
+                        style="text-decoration: underline;" target="_blank">Javascript</a> as it looked so complicated
+                    to me.</p>
+
+                <p>Then, I started making <a href="https://discord.com" style="text-decoration:underline;"
+                        target="_blank">Discord</a>
+                    bots in <a href="https://python.org" style="text-decoration: underline;" target="_blank">Python</a>.
+                    JS was still
+                    very daunting to me,
+                    but I soon discovered the power of it as a friend recommended me <a href="https://discordjs.org"
+                        style="text-decoration: underline;" target="_blank">Discord.JS</a></p>
+
+                <p>This is where my <a href="https://nodejs.org" style="text-decoration:underline;"
+                        target="_blank">NodeJS</a> career
+                    starts. My very first program in <a href="https://nodejs.org" style="text-decoration:underline;"
+                        target="_blank">NodeJS</a> was a <a href="https://discord.com"
+                        style="text-decoration:underline;" target="_blank">Discord</a> bot
+                    made with the help of <a href="https://discordjs.guide" style="text-decoration: underline;"
+                        target="_blank">discordjs.guide</a>.
+                    I made a few other bots after that, my biggest being <a href="https://top.gg/bot/733615541515714593"
+                        style="text-decoration:underline;" target="_blank">MemeBot</a>, a shameless copy of <a
+                        href="https://dankmemer.lol/" style="text-decoration:underline;" target="_blank">Dank Memer</a>.
+                </p>
+
+                <p>Around 2021, I was introduced to <a href="https://deno.com/" style="text-decoration: underline;"
+                        target="_blank">Deno</a>. The "successor" to <a href="https://nodejs.org"
+                        style="text-decoration:underline;" target="_blank">NodeJS</a>. And to be honest, it was
+                    great.
+                    But <a href="https://www.typescriptlang.org/" style="text-decoration: underline;"
+                        target="_blank">TypeScript</a> was
+                    a pain in the ass. It introduced the need for relentless boilerplate
+                    when you're just trying to make something simple. <a href="https://www.typescriptlang.org/"
+                        style="text-decoration: underline;" target="_blank">TypeScript</a> helps with organization in
+                    large-scale
+                    projects,
+                    but it is very annoying in a small project.</p>
+
+                <p>Around this time I was also making small games in <a href="https://unity.com"
+                        style="text-decoration: underline" target="_blank">Unity</a>, with <a
+                        href="https://dotnet.microsoft.com/en-us/languages/csharp" style="text-decoration: underline;"
+                        target="_blank">C#</a>. I never really finished any of them, but I also
+                    have some skill in <a href="https://en.wikipedia.org/wiki/Windows_Presentation_Foundation"
+                        style="text-decoration: underline;" target="_blank">WPF</a> and <a
+                        href="https://en.wikipedia.org/wiki/Windows_Forms" style="text-decoration: underline;"
+                        target="_blank">WinForms</a> (which nobody uses).</p>
+            </div>
+
+            <div id="contact" data-page class="hidden">
+                <p><i class="fa-brands fa-discord text-color"></i>: <a
+                        onmouseenter="show('discord-tooltip'); setText('discord-tooltip', 'Click to copy to clipboard.');"
+                        onmouseleave="hide('discord-tooltip');"
+                        onmousedown="setText('discord-tooltip', 'Copied!'); copy('sl4shed')">sl4shed</a>
+                </p>
+                <dialog id="discord-tooltip"></dialog>
+
+                <p><i class="fa-solid fa-envelope text-color"></i>: <a
+                        onmouseenter="show('mail-tooltip'); setText('mail-tooltip', 'Click to email me.');"
+                        onmouseleave="hide('mail-tooltip');"
+                        onmousedown="setText('mail-tooltip', 'Opened email program!');"
+                        href="mailto:slasheddev@gmail.com" target="_blank">slasheddev@gmail.com</a>
+                </p>
+                <dialog id="mail-tooltip"></dialog>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackbox Party Starter</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script type="module" src="./js/wheel.js"></script>
+
+    <div class="center">
+        <div style="text-align: center; display: flex; flex-direction: column; gap: 5px;">
+            <div class="container" id="wheel-container">
+            </div>
+
+            <div class="container">
+                <button id="spin">Spin!</button>
+                <button onclick="goto('index.html')">Go Back</button>
+
+		<script>
+		function goto(url) {
+			window.location = new URL(url, window.location.href);
+		}
+		</script>
+            </div>
+        </div>
+    </div>
+
+    <dialog id="result-modal" class="modal">
+        <p id="result-game"></p>
+        <p id="result-pack"></p>
+        <p id="result-players"></p>
+
+        <div style="text-align: center;"><button style="text-align: center;" id="result-modal-close" onclick="document.getElementById('result-modal').close()">Close</button></div>
+        
+    </dialog>
+</body>
+</html>

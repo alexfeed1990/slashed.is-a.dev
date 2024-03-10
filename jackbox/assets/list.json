@@ -1,0 +1,159 @@
+{
+    "party": {
+        "Quiplash 3": {
+            "pack": 7,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Talking Points": {
+            "pack": 7,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Champ'd Up": {
+            "pack": 7,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Joke Boat": {
+            "pack": 6,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Split The Room": {
+            "pack": 5,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Mad Verse City": {
+            "pack": 5,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Patently Stupid": {
+            "pack": 5,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Survive The Internet": {
+            "pack": 4,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Fakin' It": {
+            "pack": 3,
+            "playersMin": 3,
+            "playersMax": 6
+        },
+        "Drawful: Animate": {
+            "pack": 8,
+            "playersMin": 3,
+            "playersMax": 10
+        },
+        "Fibbage 3": {
+            "pack": 4,
+            "playersMin": 2,
+            "playersMax": 8
+        },
+        "Job Job": {
+            "pack": 8,
+            "playersMin": 3,
+            "playersMax": 10
+        },
+        "Weapons Drawn": {
+            "pack": 8,
+            "playersMin": 4,
+            "playersMax": 10
+        }
+    },
+
+    "quickestParty": {
+        "Quiplash 3": {
+            "pack": 7,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Talking Points": {
+            "pack": 7,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Champ'd Up": {
+            "pack": 7,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Mad Verse City": {
+            "pack": 5,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Patently Stupid": {
+            "pack": 5,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Survive The Internet": {
+            "pack": 4,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Fibbage 3": {
+            "pack": 4,
+            "playersMin": 2,
+            "playersMax": 8
+        },
+        "Job Job": {
+            "pack": 8,
+            "playersMin": 3,
+            "playersMax": 10
+        }
+    },
+    "quickParty": {
+        "Survive The Internet": {
+            "pack": 4,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Mad Verse City": {
+            "pack": 5,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Quiplash 3": {
+            "pack": 7,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Fakin' It": {
+            "pack": 3,
+            "playersMin": 3,
+            "playersMax": 6
+        },
+        "Patently Stupid": {
+            "pack": 5,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Champ'd Up": {
+            "pack": 7,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Talking Points": {
+            "pack": 7,
+            "playersMin": 3,
+            "playersMax": 8
+        },
+        "Job Job": {
+            "pack": 8,
+            "playersMin": 3,
+            "playersMax": 10
+        },
+        "Weapons Drawn": {
+            "pack": 8,
+            "playersMin": 4,
+            "playersMax": 10
+        }
+    }
+}
